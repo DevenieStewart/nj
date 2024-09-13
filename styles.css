@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#calculator {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #392d2d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#menu {
+    background-color: #201d1d;
+    padding: 10px;
+    text-align: center;
+}
+
+#panel {
+    background-color: #000;
+    padding: 10px;
+    text-align: right;
+}
+
+#panel-input {
+    width: 100%;
+    height: 50px;
+    background-color: #370e0e;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#keyboard {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.my-btn {
+    background-color: #444;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.my-btn:hover {
+    background-color: #555;
+}
+
+#clear-btn {
+    background-color: #e74c3c;
+}
+
+#clear-btn:hover {
+    background-color: #c0392b;
+}
+
+#equal-btn {
+    background-color: #3498db;
+}
+
+#equal-btn:hover {
+    background-color: #2980b9;
+}
+
+#history {
+    background-color: #2c2c2c;
+    padding: 10px;
+    display: none;
+}
+
+#history h3 {
+    margin-top: 0;
+    color: #fff;
+}
+
+#history-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#history-list li {
+    border-bottom: 1px solid #444;
+    padding: 5px 0;
+    color: #fff;
+}
